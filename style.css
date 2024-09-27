@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  font-family: "Lustria";
+  color: black;
+  font-size: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right: 30px;
+}
+
+.esconde{
+display: none;
+}
+
+.botao{
+  background-color: white;
+  border:2px solid white;
+  border-radius: 200px;
+  color: black;
+  font-size:30px;
+   font-family: "Lustria";
+}
+
+.botao:hover{
+background-color: green;
+  border: 2px solid yellow;
+}
+
+
